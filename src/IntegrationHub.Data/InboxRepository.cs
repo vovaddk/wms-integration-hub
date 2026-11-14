@@ -77,7 +77,7 @@ public sealed class InboxRepository(SqlConnectionFactory db) : IInboxStore
                 SELECT TOP (@BatchSize) *
                 FROM dbo.inbox WITH (UPDLOCK, READPAST, ROWLOCK)
                 WHERE status IN (N'Received', N'Failed', N'Processing')
-                  AND next_attempt_at <= SYSUTCDATETIME()
+                  AND next_attempt_at <= CAST(SYSUTCDATETIME() AS datetime2(3)) -- same rounding as the stored value
                 ORDER BY next_attempt_at
             )
             UPDATE due
