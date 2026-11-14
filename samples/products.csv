@@ -1,0 +1,7 @@
+sku,name,uom,weight_kg,barcode
+SKU-001,Stretch film 500mm,EA,2.100,4006381333931
+SKU-002,Pallet label 100x150,PCS,0.010,
+SKU-003,Shipping carton 40x30x30,EA,0.450,4006381333948
+SKU-004,Barcode scanner battery,EA,abc,
+,Row without sku,EA,,
+SKU-005,Thermal ribbon,EA,0.300,

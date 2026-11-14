@@ -1,0 +1,9 @@
+{
+  "DocNo": "SO-1001",
+  "DocDate": "14.11.2026",
+  "Customer": { "Name": "ACME GmbH" },
+  "Lines": [
+    { "ItemNo": "SKU-001", "Qty": 2, "Uom": "EA" },
+    { "ItemNo": "SKU-002", "Qty": 1, "Uom": "DZ" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "AsnNo": "ASN-77",
+  "ExpectedDate": "15.11.2026",
+  "Lines": [
+    { "ItemNo": "SKU-001", "Qty": 100, "Uom": "EA" },
+    { "ItemNo": "SKU-003", "Qty": 5, "Uom": "DZ" }
+  ]
+}

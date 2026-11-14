@@ -1,0 +1,6 @@
+order_no,order_date,customer,sku,quantity,unit
+CSV-1001,2026-11-14,Contoso Retail,SKU-001,4,EA
+CSV-1001,2026-11-14,Contoso Retail,SKU-002,1,DZ
+CSV-1002,2026-11-14,Fabrikam,SKU-003,2,EA
+CSV-1003,2026-11-14,Northwind,SKU-001,1,EA
+CSV-1003,2026-11-14,Northwind,SKU-005,2.5,EA

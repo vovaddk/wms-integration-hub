@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/IntegrationHub.Api/IntegrationHub.Api.csproj" />
+    <Project Path="src/IntegrationHub.Core/IntegrationHub.Core.csproj" />
+    <Project Path="src/IntegrationHub.Data/IntegrationHub.Data.csproj" />
+    <Project Path="src/IntegrationHub.Worker/IntegrationHub.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/IntegrationHub.IntegrationTests/IntegrationHub.IntegrationTests.csproj" />
+    <Project Path="tests/IntegrationHub.UnitTests/IntegrationHub.UnitTests.csproj" />
+  </Folder>
+</Solution>
